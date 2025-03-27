@@ -1,4 +1,4 @@
-module github.com/prometheus/node_exporter
+module github.com/kitschysynq/node_exporter
 
 go 1.23.0
 
