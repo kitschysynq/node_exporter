@@ -2,6 +2,8 @@ module github.com/prometheus/node_exporter
 
 go 1.23.0
 
+replace github.com/prometheus/procfs => github.com/kitschysynq/procfs v0.16.1-0.20250327212339-85e4ac554aa8
+
 require (
 	github.com/alecthomas/kingpin/v2 v2.4.0
 	github.com/beevik/ntp v1.4.3
